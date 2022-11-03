@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(149, 163, 245, 0.8),rgba(164, 243, 152, 0.6)), url(./image/undraw_Programmer_re_owql.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.header{
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    border: 1px solid tomato;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: tomato;
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+}
+/* header part end */
+/* Content part start */
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.cont h1{
+    margin-bottom: 20px;
+    color: yellow;
+    font-size: 50px;
+}
+/* Content part end */
+/* sidebar part start */
+.sidebar{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(rgb(194, 247, 129),yellow);
+    height: 100vh;
+}
+.sidebar img{
+    width: 25px;
+    display: block;
+    margin: 30px auto;
+}
+.social-links{
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/* sidebar part end */
+/* bubble part start */
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -30%;
+}
+.bubbles img{
+    width: 50px;
+    height: 50px;
+    animation: bubble 7s reverse infinite;
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+    height: 25px;
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+    height: 25px;
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+    height: 25px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 4s;
+    width: 50px;
+    height: 50px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 6s;
+    width: 80px;
+    height: 80px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 2s;
+    width: 25px;
+    height: 25px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 5s;
+    width: 90px;
+    height: 90px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 3s;
+    width: 30px;
+    height: 30px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 1s;
+    width: 60px;
+    height: 60px;
+}
+.bubbles img:nth-child(8){
+    animation-delay: 5s;
+    width: 90px;
+    height: 90px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    40%{
+        
+        opacity: 0.5;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-95vh);
+        opacity: 0;
+    }
+}
+/* bubble part end */
