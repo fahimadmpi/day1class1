@@ -1,0 +1,78 @@
+
+body{
+    background: url(./assets/images/hearder/bg_main.gif) center;
+    /* background-size: cover; */
+
+
+}
+/* header part start */
+.cont{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.topber{
+    height: 40px;
+    background: rgb(127, 218, 174);
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 2px solid rgb(182, 13, 13);
+}
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+    background: rgb(168, 85, 85);
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+padding-top: 45px;
+}
+.logo_search button{
+    background: rgb(148, 144, 144);
+    font-size: 15px;
+}
+.logo_right{
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+}
+.logo1{
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+.logo1 img{
+    position: relative;
+    top: 16px;
+}
+.logo2{
+padding-left: 10px;
+}
+.logo2 h6{
+    font-size: 13px;
+    color: #683091;
+
+}
+input{
+    width: 75%;
+}
+/* logo part start */
+/* menu part start */
+.main_menu a:hover{
+    background: rgb(105, 34, 34);
+
+}
+/* menu part end */
