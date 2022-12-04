@@ -269,6 +269,7 @@
 <!-- footer part start -->
 <footer class="cont">
   <div class="row footer_top mt-5">
+    <?php dynamic_sidebar('footertop'); ?>
     <img src="./image/footer/footer_top_bg.png" alt="">
   </div>
   <div class="row footer_bottom">
@@ -312,11 +313,22 @@
   </div>
  </footer>
  <!-- footer part end -->
- <!-- footer -->
- 
- <!-- footer -->
 
-    <script src="./js/bootstrap.bundle.min.js"></script> 
+ <?php wp_footer(); ?>
+ 
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <section class="cont">
+
+<?php 
+$x=30;
+while($x<=100){
+   ($x%5==0)? print $x.'<br>':'';
+    $x=$x+5;
+}
+
+?>
+
+    </section>  
     
 </body>
 </html>

@@ -96,4 +96,16 @@ input{
     padding: 5px;
 }
 /* menu part end */
+/* list */
+.list_1{
+    color: green;
+    font: size 14px;
+   
+    
+}
+.list_1 li{
+    margin-bottom: 2px;
+    border-bottom: 1px solid #683091;
+    width: 50%;
+}
 
